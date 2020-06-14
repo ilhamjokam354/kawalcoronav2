@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawal Corona | Covid 19</title>
+</head>
+<body>
+    <header >
+        <nav-bar></nav-bar>
+    </header>
+    <main>
+        <jumbo-tron></jumbo-tron>
+        
+        <div class="container">
+            <div class="row" id="data">
+                <div class="col-md-3">
+                    <div class="card mb-3" style="max-width: 540px; max-height: 400px;">
+                        <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://res.cloudinary.com/dvk9bvjrh/image/upload/v1592067770/sedih_jwaz2z.png" id="positif" class="card-img text-center" alt="Positif">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <h5 class="card-title">Total <br>Positif</h5>
+                            <p class="card-text"><span ><b class="positifText">Loading...</b></span> Orang</p>
+                            <br><br>
+                            <p class="card-text"><small class="text-muted">Last updated <span class="lastUpdatePositif">Loading...</span></small></p>
+                            
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3" style="max-width: 540px; max-height: 400px;">
+                        <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://res.cloudinary.com/dvk9bvjrh/image/upload/v1592067770/senang_pytcrz.png" class="card-img" alt="Sembuh">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <h5 class="card-title">Total Sembuh</h5>
+                            <p class="card-text"><span ><b class="sembuhText">Loading...</b></span> Orang</p>
+                            <br>
+                            <p class="card-text"><small class="text-muted">Last updated <span class="lastUpdateSembuh">Loading...</span></small></p>
+                            
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3" style="max-width: 540px; max-height: 400px;">
+                        <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://res.cloudinary.com/dvk9bvjrh/image/upload/v1592067769/nangis_opwmtm.png" class="card-img" alt="Meninggal">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <h5 class="card-title">Total Meninggal</h5>
+                            <p class="card-text"><span ><b class="meninggalText">Loading...</b></span> Orang</p>
+                            <br><br>
+                            <p class="card-text "><small class="text-muted">Last updated <span class="lastUpdateMeninggal">Loading...</span></small></p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3" style="max-width: 540px; max-height: 400px;">
+                        <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="https://res.cloudinary.com/dvk9bvjrh/image/upload/v1592067769/indo_ereex7.png" class="card-img" alt="Indonesia">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <h5 class="card-title">Indonesia</h5>
+                            <p class="card-text"><small>Positif</small> <b class="indoPositif">Loading...</b>, <small>Sembuh</small> <b class="indoSembuh">Loading...</b>, <small>Meninggal</small> <b class="indoMeninggal">Loading...</b> <small>Orang</small></p>
+                            <p class="card-text"><small class="text-muted">Last updated <span class="lastUpdateIndo">Loading...</span></small></p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="mt-4">Kasus Per Provinsi</h3>
+            <div class="table-responsive">
+                <table class="table table-striped" > 
+                    <tr>
+                        <th>No.</th>
+                        <th>Provinsi</th>
+                        <th>Positif</th>
+                        <th>Sembuh</th>
+                        <th>Meninggal</th>
+                        
+                    </tr>
+                    <tbody  id="dataTabless">
+
+                    </tbody>
+                </table>
+
+            </div>
+            <h3 class="mt-4">Kasus International</h3>
+            <div class="table-responsive">
+                <table class="table table-striped" > 
+                    <tr>
+                        <th>No.</th>
+                        <th>Negara</th>
+                        <th>Positif</th>
+                        <th>Sembuh</th>
+                        <th>Meninggal</th>
+                        <th>Update Terakhir</th>
+                        
+                    </tr>
+                    <tbody  id="dataTablesGlobal">
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="text-center">Copyright &copy; IlhamJKM</p>
+        <p class="text-left"><small>Nb : Kalo Gak Ada Datanya Refresh :)</small></p>
+    </footer>
+    
+</body>
+</html>
